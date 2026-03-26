@@ -73,7 +73,7 @@ export default function HeroSection() {
               href="#apply"
               className="inline-flex items-center justify-center px-8 py-4 bg-gold text-charcoal font-semibold rounded-full text-base transition-all duration-300 hover:bg-gold-dark hover:shadow-xl hover:shadow-gold/20 hover:-translate-y-0.5"
             >
-              Apply for Founding Membership
+              Apply Now
             </a>
             <a
               href="#pillars"
@@ -92,7 +92,7 @@ export default function HeroSection() {
           >
             <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
             <span className="text-sm text-white/90 font-medium">
-              Program starts April 15, 2026 — Limited founding spots available
+              Program starts April 15, 2026 — Weekly coaching for 12 months
             </span>
           </motion.div>
         </div>

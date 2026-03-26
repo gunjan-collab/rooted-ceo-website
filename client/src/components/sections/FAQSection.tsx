@@ -1,7 +1,7 @@
 /*
  * FAQ Section — Rooted by Gunjan Vermani
  * Coastal Organic: Clean white background, accordion style,
- * warm and approachable tone.
+ * warm and approachable tone. Updated for ongoing 12-month model.
  */
 import SectionReveal from "@/components/SectionReveal";
 import {
@@ -26,23 +26,23 @@ const faqs = [
   },
   {
     q: "What if I can't make every live call?",
-    a: "All coaching calls are recorded and shared within 24 hours. While we strongly encourage live attendance for the interactive coaching and hot-seat opportunities, we understand that life happens. You'll have lifetime access to all recordings and materials.",
+    a: "All coaching calls are recorded and shared within 24 hours. While we strongly encourage live attendance for the interactive coaching and hot-seat opportunities, we understand that life happens. You'll have access to all recordings and materials throughout your membership.",
   },
   {
-    q: "Is there a payment plan available?",
-    a: "Yes! You can pay in full at $2,497 or choose our 3-payment plan of $897/month. Both options give you full access to everything in the program from day one.",
+    q: "How does the pricing work?",
+    a: "Rooted is an ongoing 12-month weekly coaching program. You can choose to pay $700/month (billed monthly) or $8,000/year (saving $400 compared to monthly). Both options give you full access to everything in the program from day one.",
   },
   {
     q: "What results can I realistically expect?",
     a: "Results vary based on your starting point and how consistently you implement. However, our framework is designed to help you build predictable marketing and sales systems, create operational efficiency, and establish work-family harmony. Most members see meaningful progress within the first 4-6 weeks.",
   },
   {
-    q: "What does 'founding member' mean?",
-    a: "As a founding member, you're joining the very first cohort of Rooted. This means you get the lowest price the program will ever be offered at, the most direct access to Gunjan, and the opportunity to shape the program as it evolves. Future cohorts will be priced significantly higher.",
+    q: "How long is the commitment?",
+    a: "Rooted is a 12-month program with weekly coaching calls. This gives you enough time to implement all four pillars of the framework — Marketing, Sales, Models, and Systems — and see real, lasting results in your business and life.",
   },
   {
-    q: "Is there a money-back guarantee?",
-    a: "Absolutely. If you attend the first 4 weeks of coaching, implement the action plans, and don't feel the program is delivering value, we'll refund your investment in full. We're confident in what we deliver, and we want you to feel confident too.",
+    q: "How do I get started?",
+    a: "Simply click the Apply Now button or email Gunjan directly at gunjanvermanicoach@gmail.com. We'll schedule a quick conversation to learn about your goals, answer your questions, and make sure Rooted is the right fit for you. No pressure, no hard sell.",
   },
 ];
 

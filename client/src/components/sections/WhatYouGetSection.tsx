@@ -101,8 +101,8 @@ export default function WhatYouGetSection() {
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-4 -left-4 md:-bottom-6 md:-left-6 bg-teal text-white rounded-2xl p-5 shadow-lg shadow-teal/20">
-                <p className="text-2xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>12+</p>
-                <p className="text-sm text-white/80">Weeks of<br />Coaching</p>
+                <p className="text-2xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>12</p>
+                <p className="text-sm text-white/80">Months of<br />Coaching</p>
               </div>
               {/* Decorative gold accent */}
               <div className="absolute -top-3 -right-3 w-20 h-20 rounded-full border-2 border-gold/30" />

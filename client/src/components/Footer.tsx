@@ -60,10 +60,10 @@ export default function Footer() {
               <p>
                 Have questions? Reach out at{" "}
                 <a
-                  href="mailto:hello@rootedcoaching.com"
+                  href="mailto:gunjanvermanicoach@gmail.com"
                   className="text-gold hover:text-gold-light transition-colors"
                 >
-                  hello@rootedcoaching.com
+                  gunjanvermanicoach@gmail.com
                 </a>
               </p>
               <p>
@@ -77,7 +77,7 @@ export default function Footer() {
               href="#apply"
               className="inline-flex items-center justify-center mt-6 px-6 py-2.5 border border-gold/40 text-gold text-sm font-medium rounded-full transition-all duration-300 hover:bg-gold/10 hover:border-gold/60"
             >
-              Apply for Founding Membership
+              Apply Now
             </a>
           </div>
         </div>

@@ -1,7 +1,7 @@
 /*
  * Home Page — Rooted by Gunjan Vermani
- * Coastal Organic design: Flowing vertical narrative with
- * organic wave dividers between key sections.
+ * Coastal Organic design: Flowing vertical narrative.
+ * Testimonials removed — program is just launching.
  */
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
@@ -10,7 +10,6 @@ import PillarsSection from "@/components/sections/PillarsSection";
 import WhatYouGetSection from "@/components/sections/WhatYouGetSection";
 import OutcomesSection from "@/components/sections/OutcomesSection";
 import AboutSection from "@/components/sections/AboutSection";
-import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import PricingSection from "@/components/sections/PricingSection";
 import FAQSection from "@/components/sections/FAQSection";
 import ApplySection from "@/components/sections/ApplySection";
@@ -39,19 +38,16 @@ export default function Home() {
       {/* 6. About Gunjan */}
       <AboutSection />
 
-      {/* 7. Testimonials */}
-      <TestimonialsSection />
-
-      {/* 8. Pricing */}
+      {/* 7. Pricing */}
       <PricingSection />
 
-      {/* 9. FAQ */}
+      {/* 8. FAQ */}
       <FAQSection />
 
-      {/* 10. Apply / Contact CTA */}
+      {/* 9. Apply / Contact CTA */}
       <ApplySection />
 
-      {/* 11. Footer */}
+      {/* 10. Footer */}
       <Footer />
     </div>
   );

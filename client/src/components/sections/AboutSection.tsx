@@ -1,16 +1,16 @@
 /*
  * About Gunjan Section — Rooted by Gunjan Vermani
- * Coastal Organic: Asymmetric layout with portrait image,
+ * Coastal Organic: Asymmetric layout with placeholder silhouette,
  * warm storytelling tone, gold accent details.
+ * Stats: 20 years experience, 9 clinics, Multiple professionals mentored
  */
 import SectionReveal from "@/components/SectionReveal";
-
-const ABOUT_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663296082498/aM8ZgGf6JiNZR9Y6FwrVXy/about-gunjan-DyfLfAJrC6PWdFcWt243hD.webp";
+import { User } from "lucide-react";
 
 const stats = [
-  { value: "10+", label: "Years in Healthcare" },
-  { value: "Multiple", label: "Clinics Scaled" },
-  { value: "100+", label: "Professionals Mentored" },
+  { value: "20+", label: "Years in Healthcare" },
+  { value: "9", label: "Clinics Scaled" },
+  { value: "Multiple", label: "Professionals Mentored" },
 ];
 
 export default function AboutSection() {
@@ -18,15 +18,17 @@ export default function AboutSection() {
     <section id="about" className="py-20 md:py-28 bg-white">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-6xl mx-auto">
-          {/* Image side */}
+          {/* Image side — clean placeholder until real photo is provided */}
           <SectionReveal>
             <div className="relative">
-              <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img
-                  src={ABOUT_IMG}
-                  alt="Gunjan Vermani — Founder of Rooted"
-                  className="w-full h-auto object-cover aspect-[3/4]"
-                />
+              <div className="rounded-2xl overflow-hidden shadow-xl bg-gradient-to-br from-[#e8f0ec] to-[#d4e4db] aspect-[3/4] flex flex-col items-center justify-center">
+                <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-teal/10 flex items-center justify-center mb-6">
+                  <User className="text-teal/40" size={72} strokeWidth={1.2} />
+                </div>
+                <p className="text-teal/60 font-semibold text-lg" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  Gunjan Vermani
+                </p>
+                <p className="text-teal/40 text-sm mt-1">Photo coming soon</p>
               </div>
               {/* Decorative elements */}
               <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-2xl border-2 border-gold/25 -z-10" />
@@ -47,10 +49,10 @@ export default function AboutSection() {
 
               <div className="space-y-5 text-charcoal/75 leading-relaxed text-[16px]">
                 <p>
-                  I'm a healthcare professional who built and scaled multiple physiotherapy
-                  clinics from the ground up. I know what it's like to pour everything into
-                  your business — the late nights, the missed dinners, the constant feeling
-                  that you're falling behind somewhere.
+                  With over 20 years of experience in healthcare, I've built and scaled
+                  9 physiotherapy clinics from the ground up. I know what it's like to pour
+                  everything into your business — the late nights, the missed dinners, the
+                  constant feeling that you're falling behind somewhere.
                 </p>
                 <p>
                   After years of grinding, I discovered that the key to sustainable success
