@@ -1,14 +1,16 @@
 /*
  * Footer — Rooted by Gunjan Vermani
  * Coastal Organic: Dark teal background, warm gold accents,
- * logo, navigation, and social links.
+ * logo, navigation, visible email, and e-transfer info.
  */
+import { Mail } from "lucide-react";
 
 const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663296082498/aM8ZgGf6JiNZR9Y6FwrVXy/logo_rooted_v1_30d1abff.png";
 
 const footerLinks = [
   { label: "About", href: "#about" },
   { label: "Program", href: "#pillars" },
+  { label: "What You Get", href: "#what-you-get" },
   { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
   { label: "Apply Now", href: "#apply" },
@@ -27,7 +29,7 @@ export default function Footer() {
               className="h-14 w-auto mb-4 brightness-0 invert opacity-90"
             />
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-              Helping ambitious entrepreneurs build successful businesses without
+              Helping ambitious healthcare entrepreneurs build successful businesses without
               sacrificing their relationships or their life.
             </p>
           </div>
@@ -51,31 +53,42 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contact — prominently visible email */}
           <div>
             <h4 className="text-sm font-semibold text-white/80 uppercase tracking-wider mb-4">
               Get in Touch
             </h4>
-            <div className="space-y-3 text-white/50 text-sm">
-              <p>
-                Have questions? Reach out at{" "}
-                <a
-                  href="mailto:gunjanvermanicoach@gmail.com"
-                  className="text-gold hover:text-gold-light transition-colors"
-                >
-                  gunjanvermanicoach@gmail.com
-                </a>
-              </p>
-              <p>
-                Program starts{" "}
-                <span className="text-white/70 font-medium">April 15, 2026</span>
+
+            {/* Prominent email display */}
+            <div className="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+              <div className="flex items-center gap-3 mb-2">
+                <div className="w-8 h-8 rounded-full bg-gold/20 flex items-center justify-center">
+                  <Mail size={14} className="text-gold" />
+                </div>
+                <span className="text-white/60 text-xs uppercase tracking-wider font-medium">
+                  Email & E-Transfer
+                </span>
+              </div>
+              <a
+                href="mailto:gunjanvermanicoach@gmail.com"
+                className="text-gold font-semibold text-base hover:text-gold-light transition-colors block"
+              >
+                gunjanvermanicoach@gmail.com
+              </a>
+              <p className="text-white/40 text-xs mt-1.5">
+                Questions, applications, and e-transfer payments
               </p>
             </div>
 
+            <p className="text-white/40 text-sm leading-relaxed">
+              Program starts{" "}
+              <span className="text-white/70 font-medium">April 15, 2026</span>
+            </p>
+
             {/* CTA */}
             <a
-              href="#apply"
-              className="inline-flex items-center justify-center mt-6 px-6 py-2.5 border border-gold/40 text-gold text-sm font-medium rounded-full transition-all duration-300 hover:bg-gold/10 hover:border-gold/60"
+              href="mailto:gunjanvermanicoach@gmail.com?subject=Rooted%20Coaching%20—%20Application"
+              className="inline-flex items-center justify-center mt-5 px-6 py-2.5 border border-gold/40 text-gold text-sm font-medium rounded-full transition-all duration-300 hover:bg-gold/10 hover:border-gold/60"
             >
               Apply Now
             </a>

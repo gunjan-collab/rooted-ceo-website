@@ -12,7 +12,7 @@ const outcomes = [
   {
     icon: TrendingUp,
     title: "Predictable Revenue Growth",
-    description: "Build a marketing and sales engine that consistently brings in new patients and revenue — so you stop riding the feast-or-famine rollercoaster.",
+    description: "Build growth systems that consistently bring in new patients and revenue — so you stop riding the feast-or-famine rollercoaster and create sustainable, predictable income.",
   },
   {
     icon: Clock,
@@ -32,7 +32,7 @@ const outcomes = [
   {
     icon: Zap,
     title: "Scalable Operations",
-    description: "Move from being the bottleneck to being the visionary. Build a team and systems that multiply your impact beyond your personal capacity.",
+    description: "Move from being the bottleneck to being the visionary. Build a high-performing team and documented systems that multiply your impact beyond your personal capacity.",
   },
   {
     icon: Users,

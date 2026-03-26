@@ -55,9 +55,10 @@ export default function AboutSection() {
                 </p>
                 <p>
                   After years of grinding, I discovered that the key to sustainable success
-                  isn't working harder — it's building smarter. I developed systems for
-                  marketing, sales, business models, and operations that allowed my clinics
-                  to grow while I reclaimed my time and my relationships.
+                  isn't working harder — it's building smarter. I developed frameworks for
+                  building high-performing teams, empowering leaders, creating operational
+                  systems, and scaling sustainably — all while reclaiming my time and my
+                  relationships.
                 </p>
                 <p>
                   Now, through <strong className="text-charcoal">Rooted</strong>, I help other

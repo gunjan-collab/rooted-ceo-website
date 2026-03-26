@@ -1,7 +1,7 @@
 /*
  * FAQ Section — Rooted by Gunjan Vermani
- * Coastal Organic: Clean white background, accordion style,
- * warm and approachable tone. Updated for ongoing 12-month model.
+ * Updated for $699/month (no commitment), $7,500/year, e-transfer payment,
+ * and new healthcare-focused pillars.
  */
 import SectionReveal from "@/components/SectionReveal";
 import {
@@ -14,7 +14,7 @@ import {
 const faqs = [
   {
     q: "Who is this program designed for?",
-    a: "Rooted is specifically designed for healthcare professionals — particularly physiotherapists and clinic owners — who want to grow their business without sacrificing their personal relationships or quality of life. Whether you're a solo practitioner looking to scale or a multi-location owner wanting better systems, this program is for you.",
+    a: "Rooted is specifically designed for healthcare professionals — particularly physiotherapists and clinic owners — who want to grow their business without sacrificing their personal relationships or quality of life. Whether you're a solo practitioner looking to scale, a multi-location owner wanting better systems, or a clinic director stepping into a leadership role, this program is for you.",
   },
   {
     q: "I'm already busy. How much time does this require?",
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "What makes this different from other business coaching programs?",
-    a: "Three things: First, it's built by a healthcare professional who has actually scaled clinics — not a generic business coach. Second, work-family harmony isn't an afterthought; it's at the centre of everything we teach. Third, you get personalised guidance, not just pre-recorded content. Every session is live and interactive.",
+    a: "Three things: First, it's built by a healthcare professional who has actually scaled 9 clinics — not a generic business coach. Second, work-family harmony isn't an afterthought; it's at the centre of everything we teach. Third, you get personalised guidance through our four healthcare-focused pillars — People & Team, Communication & Leadership, Systems & Operations, and Growth & Harmony — not just pre-recorded content.",
   },
   {
     q: "What if I can't make every live call?",
@@ -30,19 +30,27 @@ const faqs = [
   },
   {
     q: "How does the pricing work?",
-    a: "Rooted is an ongoing 12-month weekly coaching program. You can choose to pay $700/month (billed monthly) or $8,000/year (saving $400 compared to monthly). Both options give you full access to everything in the program from day one.",
+    a: "Rooted offers two plans: $699/month with no commitment (cancel anytime), or $7,500/year paid upfront (saving $888 compared to monthly). Both options give you full access to everything in the program from day one. There are no lock-in contracts — you stay because the program works.",
+  },
+  {
+    q: "How do I pay?",
+    a: "Payment is made via e-transfer to gunjanvermanicoach@gmail.com. Once you click 'Get Started' or 'Apply Now,' you'll email Gunjan directly. She'll confirm your spot and provide any details you need to complete your e-transfer.",
+  },
+  {
+    q: "Is there a commitment or contract?",
+    a: "No. The monthly plan has zero commitment — you can cancel anytime. We believe in earning your continued membership through results, not locking you into a contract. The annual plan is a one-time payment for 12 months of coaching at a discounted rate.",
   },
   {
     q: "What results can I realistically expect?",
-    a: "Results vary based on your starting point and how consistently you implement. However, our framework is designed to help you build predictable marketing and sales systems, create operational efficiency, and establish work-family harmony. Most members see meaningful progress within the first 4-6 weeks.",
+    a: "Results vary based on your starting point and how consistently you implement. Our structured 12-month journey takes you from Foundation (mindset and delegation) through Systems and Leadership to Scale & Culture. Most members see meaningful progress within the first 4-6 weeks, and by month 6, you'll have systems running that free up significant time.",
   },
   {
-    q: "How long is the commitment?",
-    a: "Rooted is a 12-month program with weekly coaching calls. This gives you enough time to implement all four pillars of the framework — Marketing, Sales, Models, and Systems — and see real, lasting results in your business and life.",
+    q: "What does the 12-month journey look like?",
+    a: "Months 1-3 focus on Foundation — shifting your identity from clinician to CEO, auditing your time, and building daily habits. Months 4-6 focus on Systems — clarifying your offer, building growth systems, and creating SOPs. Months 7-9 focus on Leadership — installing decision frameworks and empowering your team. Months 10-12 focus on Scale & Culture — building a business that runs without you and achieving work-family harmony.",
   },
   {
     q: "How do I get started?",
-    a: "Simply click the Apply Now button or email Gunjan directly at gunjanvermanicoach@gmail.com. We'll schedule a quick conversation to learn about your goals, answer your questions, and make sure Rooted is the right fit for you. No pressure, no hard sell.",
+    a: "Simply click the Apply Now button or email Gunjan directly at gunjanvermanicoach@gmail.com. She'll schedule a quick conversation to learn about your goals, answer your questions, and make sure Rooted is the right fit for you. No pressure, no hard sell.",
   },
 ];
 

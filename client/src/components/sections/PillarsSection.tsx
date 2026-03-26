@@ -1,40 +1,39 @@
 /*
  * Four Pillars Section — Rooted by Gunjan Vermani
- * Coastal Organic: Teal background with organic layout,
- * Four pillars (Marketing, Sales, Models, Systems) with
- * Work-Family Harmony at the centre.
+ * Coastal Organic: Healthcare-focused pillars with Work-Family Harmony at centre.
+ * Pillars: People & Team, Communication & Leadership, Systems & Operations, Growth & Harmony
  */
 import SectionReveal from "@/components/SectionReveal";
-import { TrendingUp, Target, LayoutGrid, Settings, Heart } from "lucide-react";
+import { Users, MessageCircle, Settings, TrendingUp, Heart } from "lucide-react";
 
 const pillars = [
   {
-    icon: TrendingUp,
-    title: "Marketing",
+    icon: Users,
+    title: "People & Team",
     description:
-      "Attract the right patients and clients consistently with strategies that build trust and authority in your local market — without burning out on social media.",
-    color: "teal",
+      "Build a high-performing team by understanding each person's natural strengths. Master delegation, hire strategically, and create a culture where your team thrives — so your business isn't capped by your personal capacity.",
+    highlights: ["Team strengths assessment", "Strategic delegation", "Right people, right seats"],
   },
   {
-    icon: Target,
-    title: "Sales",
+    icon: MessageCircle,
+    title: "Communication & Leadership",
     description:
-      "Convert enquiries into committed clients with ethical, relationship-first sales processes that feel natural — not pushy or salesy.",
-    color: "gold",
-  },
-  {
-    icon: LayoutGrid,
-    title: "Models",
-    description:
-      "Design a business model that generates predictable revenue and scales beyond your personal capacity. Build offers that serve more people with less of your time.",
-    color: "teal",
+      "Shift from clinician to confident CEO. Lead with clarity, empower your team to make decisions, and build authentic relationships that drive results — without micromanaging every detail.",
+    highlights: ["Decision frameworks", "Empowered leadership", "Clinician-to-CEO identity shift"],
   },
   {
     icon: Settings,
-    title: "Systems",
+    title: "Systems & Operations",
     description:
-      "Create operational systems that let your clinic run smoothly — even when you step away. Automate, delegate, and systematise for freedom.",
-    color: "gold",
+      "Build a business that runs without you being there every minute. Create documented playbooks, streamlined processes, and operational systems that deliver consistent results — even when you step away.",
+    highlights: ["SOPs & playbooks", "Operational independence", "Consistent patient experience"],
+  },
+  {
+    icon: TrendingUp,
+    title: "Growth & Harmony",
+    description:
+      "Scale sustainably without sacrificing what matters most. Build predictable revenue, eliminate chaos, and create a business that supports your life — not one that consumes it.",
+    highlights: ["Sustainable scaling", "Predictable revenue", "Work-family harmony"],
   },
 ];
 
@@ -52,55 +51,60 @@ export default function PillarsSection() {
               <span className="text-teal italic">Rooted</span> Life
             </h2>
             <p className="text-lg text-charcoal/70 leading-relaxed">
-              Every successful healthcare business needs these four pillars working in harmony.
-              At the centre of it all? The thing most programs ignore — your relationships and your life.
+              Every successful healthcare business needs these four pillars working in
+              harmony. At the centre of it all? The thing most programs ignore — your
+              relationships and your life.
             </p>
           </div>
         </SectionReveal>
 
-        {/* Center circle — Work-Family Harmony */}
-        <SectionReveal delay={100}>
+        {/* Centre harmony badge */}
+        <SectionReveal delay={50}>
           <div className="flex justify-center my-10">
-            <div className="w-40 h-40 md:w-48 md:h-48 rounded-full bg-gradient-to-br from-teal to-teal-dark flex flex-col items-center justify-center text-center shadow-xl shadow-teal/20 border-4 border-white">
-              <Heart className="text-gold mb-2" size={26} fill="currentColor" />
-              <span className="text-white font-bold text-base md:text-lg leading-tight px-4" style={{ fontFamily: "'Playfair Display', serif" }}>
-                Work-Family
-                <br />
-                Harmony
+            <div className="flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-teal/10 via-gold/10 to-teal/10 border border-teal/20">
+              <Heart size={18} className="text-gold" />
+              <span
+                className="text-teal font-bold text-sm tracking-wide"
+                style={{ fontFamily: "'Playfair Display', serif" }}
+              >
+                Work-Family Harmony at the Centre
               </span>
-              <span className="text-white/70 text-xs mt-1">at the centre</span>
+              <Heart size={18} className="text-gold" />
             </div>
           </div>
         </SectionReveal>
 
         {/* Pillar cards in 2x2 grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
           {pillars.map((pillar, i) => (
-            <SectionReveal key={pillar.title} delay={150 + i * 100}>
+            <SectionReveal key={pillar.title} delay={i * 100 + 100}>
               <div className="group bg-white rounded-2xl p-7 md:p-8 shadow-sm border border-[oklch(0.9_0.02_80)] transition-all duration-500 hover:shadow-lg hover:shadow-teal/5 hover:-translate-y-1 h-full">
-                <div
-                  className={`w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-colors duration-300 ${
-                    pillar.color === "teal"
-                      ? "bg-teal/10 group-hover:bg-teal/15"
-                      : "bg-gold/15 group-hover:bg-gold/20"
-                  }`}
-                >
-                  <pillar.icon
-                    size={24}
-                    className={
-                      pillar.color === "teal" ? "text-teal" : "text-gold-dark"
-                    }
-                  />
+                <div className="flex items-start gap-5">
+                  <div className="w-12 h-12 rounded-xl bg-teal/10 flex items-center justify-center shrink-0 group-hover:bg-teal/15 transition-colors">
+                    <pillar.icon size={22} className="text-teal" />
+                  </div>
+                  <div className="flex-1">
+                    <h3
+                      className="text-xl font-bold text-charcoal mb-3"
+                      style={{ fontFamily: "'Playfair Display', serif" }}
+                    >
+                      {pillar.title}
+                    </h3>
+                    <p className="text-charcoal/65 leading-relaxed text-[15px] mb-4">
+                      {pillar.description}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {pillar.highlights.map((h) => (
+                        <span
+                          key={h}
+                          className="text-xs font-medium px-3 py-1.5 rounded-full bg-teal/8 text-teal border border-teal/10"
+                        >
+                          {h}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-                <h3
-                  className="text-xl font-bold text-charcoal mb-3"
-                  style={{ fontFamily: "'Playfair Display', serif" }}
-                >
-                  {pillar.title}
-                </h3>
-                <p className="text-charcoal/65 leading-relaxed text-[15px]">
-                  {pillar.description}
-                </p>
               </div>
             </SectionReveal>
           ))}
