@@ -1,11 +1,12 @@
 /*
  * About Gunjan Section — Rooted by Gunjan Vermani
- * Coastal Organic: Asymmetric layout with placeholder silhouette,
+ * Coastal Organic: Asymmetric layout with Gunjan's real photo (teal couch),
  * warm storytelling tone, gold accent details.
  * Stats: 20 years experience, 9 clinics, Multiple professionals mentored
  */
 import SectionReveal from "@/components/SectionReveal";
-import { User } from "lucide-react";
+
+const GUNJAN_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663296082498/aM8ZgGf6JiNZR9Y6FwrVXy/GVImage_3c9e8ea3.jpg";
 
 const stats = [
   { value: "20+", label: "Years in Healthcare" },
@@ -21,14 +22,12 @@ export default function AboutSection() {
           {/* Image side — clean placeholder until real photo is provided */}
           <SectionReveal>
             <div className="relative">
-              <div className="rounded-2xl overflow-hidden shadow-xl bg-gradient-to-br from-[#e8f0ec] to-[#d4e4db] aspect-[3/4] flex flex-col items-center justify-center">
-                <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-teal/10 flex items-center justify-center mb-6">
-                  <User className="text-teal/40" size={72} strokeWidth={1.2} />
-                </div>
-                <p className="text-teal/60 font-semibold text-lg" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  Gunjan Vermani
-                </p>
-                <p className="text-teal/40 text-sm mt-1">Photo coming soon</p>
+              <div className="rounded-2xl overflow-hidden shadow-xl aspect-[3/4]">
+                <img
+                  src={GUNJAN_PHOTO}
+                  alt="Gunjan Vermani — Healthcare coach and founder of Rooted"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               {/* Decorative elements */}
               <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-2xl border-2 border-gold/25 -z-10" />
