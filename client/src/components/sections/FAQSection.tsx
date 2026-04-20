@@ -1,7 +1,6 @@
 /*
  * FAQ Section — Rooted by Gunjan Vermani
- * Updated for $699/month (no commitment), $7,500/year, e-transfer payment,
- * and new healthcare-focused pillars.
+ * Healthcare-focused pillars. Pricing removed from site.
  */
 import SectionReveal from "@/components/SectionReveal";
 import {
@@ -27,18 +26,6 @@ const faqs = [
   {
     q: "What if I can't make every live call?",
     a: "All coaching calls are recorded and shared within 24 hours. While we strongly encourage live attendance for the interactive coaching and hot-seat opportunities, we understand that life happens. You'll have access to all recordings and materials throughout your membership.",
-  },
-  {
-    q: "How does the pricing work?",
-    a: "Rooted offers two plans: $699/month with no commitment (cancel anytime), or $7,500/year paid upfront (saving $888 compared to monthly). Both options give you full access to everything in the program from day one. There are no lock-in contracts — you stay because the program works.",
-  },
-  {
-    q: "How do I pay?",
-    a: "Payment is made via e-transfer to gunjanvermanicoach@gmail.com. Once you click 'Get Started' or 'Apply Now,' you'll email Gunjan directly. She'll confirm your spot and provide any details you need to complete your e-transfer.",
-  },
-  {
-    q: "Is there a commitment or contract?",
-    a: "No. The monthly plan has zero commitment — you can cancel anytime. We believe in earning your continued membership through results, not locking you into a contract. The annual plan is a one-time payment for 12 months of coaching at a discounted rate.",
   },
   {
     q: "What results can I realistically expect?",

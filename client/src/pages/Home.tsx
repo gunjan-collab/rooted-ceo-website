@@ -10,7 +10,6 @@ import PillarsSection from "@/components/sections/PillarsSection";
 import WhatYouGetSection from "@/components/sections/WhatYouGetSection";
 import OutcomesSection from "@/components/sections/OutcomesSection";
 import AboutSection from "@/components/sections/AboutSection";
-import PricingSection from "@/components/sections/PricingSection";
 import FAQSection from "@/components/sections/FAQSection";
 import ApplySection from "@/components/sections/ApplySection";
 import Footer from "@/components/Footer";
@@ -38,10 +37,7 @@ export default function Home() {
       {/* 6. About Gunjan */}
       <AboutSection />
 
-      {/* 7. Pricing */}
-      <PricingSection />
-
-      {/* 8. FAQ */}
+      {/* 7. FAQ */}
       <FAQSection />
 
       {/* 9. Apply / Contact CTA */}

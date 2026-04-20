@@ -12,7 +12,6 @@ const navLinks = [
   { label: "About", href: "#about" },
   { label: "Program", href: "#pillars" },
   { label: "What You Get", href: "#what-you-get" },
-  { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
 ];
 
