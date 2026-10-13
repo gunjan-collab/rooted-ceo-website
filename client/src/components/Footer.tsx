@@ -69,10 +69,10 @@ export default function Footer() {
                 </span>
               </div>
               <a
-                href="mailto:gunjanvermanicoach@gmail.com"
+                href="mailto:info@rooted-ceo.com"
                 className="text-gold font-semibold text-base hover:text-gold-light transition-colors block"
               >
-                gunjanvermanicoach@gmail.com
+                info@rooted-ceo.com
               </a>
               <p className="text-white/40 text-xs mt-1.5">
                 Questions, applications, and e-transfer payments
@@ -86,7 +86,7 @@ export default function Footer() {
 
             {/* CTA */}
             <a
-              href="mailto:gunjanvermanicoach@gmail.com?subject=Rooted%20Coaching%20—%20Application"
+              href="mailto:info@rooted-ceo.com?subject=Rooted%20Coaching%20—%20Application"
               className="inline-flex items-center justify-center mt-5 px-6 py-2.5 border border-gold/40 text-gold text-sm font-medium rounded-full transition-all duration-300 hover:bg-gold/10 hover:border-gold/60"
             >
               Apply Now
