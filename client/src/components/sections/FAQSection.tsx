@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "How do I get started?",
-    a: "Simply click the Apply Now button or email Gunjan directly at gunjanvermanicoach@gmail.com. She'll schedule a quick conversation to learn about your goals, answer your questions, and make sure Rooted is the right fit for you. No pressure, no hard sell.",
+    a: "Simply click the Apply Now button or email Gunjan directly at info@rooted-ceo.com. She'll schedule a quick conversation to learn about your goals, answer your questions, and make sure Rooted is the right fit for you. No pressure, no hard sell.",
   },
 ];
 

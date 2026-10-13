@@ -1,7 +1,7 @@
 /*
  * Pricing Section — Rooted by Gunjan Vermani
  * $699/month (no commitment, cancel anytime) or $7,500/year (saves $888)
- * Payment via e-transfer to gunjanvermanicoach@gmail.com
+ * Payment via e-transfer to info@rooted-ceo.com
  */
 import SectionReveal from "@/components/SectionReveal";
 import { Check, Mail } from "lucide-react";
@@ -78,7 +78,7 @@ export default function PricingSection() {
                 </div>
 
                 <a
-                  href="mailto:gunjanvermanicoach@gmail.com?subject=Rooted%20Coaching%20—%20Monthly%20Plan%20($699/month)&body=Hi%20Gunjan,%0A%0AI'm%20interested%20in%20the%20Rooted%20monthly%20plan%20at%20$699/month.%0A%0APlease%20send%20me%20the%20e-transfer%20details%20to%20get%20started.%0A%0AThanks!"
+                  href="mailto:info@rooted-ceo.com?subject=Rooted%20Coaching%20—%20Monthly%20Plan%20($699/month)&body=Hi%20Gunjan,%0A%0AI'm%20interested%20in%20the%20Rooted%20monthly%20plan%20at%20$699/month.%0A%0APlease%20send%20me%20the%20e-transfer%20details%20to%20get%20started.%0A%0AThanks!"
                   className="block w-full text-center px-8 py-4 bg-white text-teal font-semibold rounded-full text-base border-2 border-teal transition-all duration-300 hover:bg-teal hover:text-white hover:shadow-lg hover:shadow-teal/15 hover:-translate-y-0.5"
                 >
                   Get Started — Monthly
@@ -123,7 +123,7 @@ export default function PricingSection() {
                 </div>
 
                 <a
-                  href="mailto:gunjanvermanicoach@gmail.com?subject=Rooted%20Coaching%20—%20Annual%20Plan%20($7,500/year)&body=Hi%20Gunjan,%0A%0AI'm%20interested%20in%20the%20Rooted%20annual%20plan%20at%20$7,500/year.%0A%0APlease%20send%20me%20the%20e-transfer%20details%20to%20get%20started.%0A%0AThanks!"
+                  href="mailto:info@rooted-ceo.com?subject=Rooted%20Coaching%20—%20Annual%20Plan%20($7,500/year)&body=Hi%20Gunjan,%0A%0AI'm%20interested%20in%20the%20Rooted%20annual%20plan%20at%20$7,500/year.%0A%0APlease%20send%20me%20the%20e-transfer%20details%20to%20get%20started.%0A%0AThanks!"
                   className="block w-full text-center px-8 py-4 bg-teal text-white font-semibold rounded-full text-base transition-all duration-300 hover:bg-teal-dark hover:shadow-xl hover:shadow-teal/20 hover:-translate-y-0.5"
                 >
                   Get Started — Annual
@@ -146,7 +146,7 @@ export default function PricingSection() {
                 Payment is made via <strong className="text-charcoal">e-transfer</strong> to:
               </p>
               <p className="text-teal font-bold text-base">
-                gunjanvermanicoach@gmail.com
+                info@rooted-ceo.com
               </p>
               <p className="text-charcoal/40 text-xs mt-3 leading-relaxed">
                 Click "Get Started" above to email Gunjan directly. She'll confirm your spot
@@ -162,7 +162,7 @@ export default function PricingSection() {
             <p className="text-charcoal/50 text-sm leading-relaxed">
               Have questions about which plan is right for you?{" "}
               <a
-                href="mailto:gunjanvermanicoach@gmail.com?subject=Rooted%20Coaching%20—%20Question"
+                href="mailto:info@rooted-ceo.com?subject=Rooted%20Coaching%20—%20Question"
                 className="text-teal font-medium underline underline-offset-2 hover:text-teal-dark transition-colors"
               >
                 Reach out to Gunjan directly

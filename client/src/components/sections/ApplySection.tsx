@@ -1,7 +1,7 @@
 /*
  * Apply / Contact CTA Section — Rooted by Gunjan Vermani
  * Coastal Organic: Teal-to-dark gradient, compelling CTA,
- * mailto link to gunjanvermanicoach@gmail.com
+ * mailto link to info@rooted-ceo.com
  */
 import SectionReveal from "@/components/SectionReveal";
 import { Mail, ArrowRight } from "lucide-react";
@@ -37,7 +37,7 @@ export default function ApplySection() {
           <SectionReveal delay={100}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
               <a
-                href="mailto:gunjanvermanicoach@gmail.com?subject=Rooted%20Coaching%20—%20I'm%20Interested"
+                href="mailto:info@rooted-ceo.com?subject=Rooted%20Coaching%20—%20I'm%20Interested"
                 className="inline-flex items-center gap-3 px-10 py-5 bg-gold text-charcoal font-semibold rounded-full text-lg transition-all duration-300 hover:bg-gold-dark hover:shadow-xl hover:shadow-gold/20 hover:-translate-y-0.5"
               >
                 <Mail size={20} />
@@ -83,10 +83,10 @@ export default function ApplySection() {
               <p className="text-white/50 text-sm">
                 Or email directly:{" "}
                 <a
-                  href="mailto:gunjanvermanicoach@gmail.com"
+                  href="mailto:info@rooted-ceo.com"
                   className="text-gold underline underline-offset-2 hover:text-gold-dark transition-colors"
                 >
-                  gunjanvermanicoach@gmail.com
+                  info@rooted-ceo.com
                 </a>
               </p>
             </div>
